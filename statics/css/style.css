@@ -1,0 +1,220 @@
+/* Animation */
+@keyframes wheel-animation {
+    from {
+        transform: translateY(0px) translateX(0px);
+    }
+
+    to {
+        transform: translateY(11px) translateX(0px);
+        opacity: .5;
+    }
+}
+
+
+
+
+/* common */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+body{
+    line-height: 1.74;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    visibility: visible;
+    font-family: sans-serif;
+}
+
+/* Header section  */
+
+
+header{
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    /* height: ; */
+}
+
+
+.header-wrapper{
+    padding: 0 30px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.56 );
+    height: 5rem;
+    position: fixed;
+}
+
+
+.navbar{
+    background-color: transparent !important;
+}
+
+.navbar-toggler{
+    width: 0px;
+}
+.navbar-toggler:focus{
+    width: 0rem;
+}
+
+.nav-second-button{
+    position: absolute;
+    box-shadow: none;
+    border-radius: 0%;
+    /* right: 10px; */
+    /* border: 0; */
+}
+
+.nav-outer-menu{
+    color: #c8c8c8;
+    font-size: 500;
+    line-height: 1.18;
+    font-size: 16px;
+
+}
+
+.nav-outer-menu:hover{
+    text-decoration: underline;
+    color: white;
+    text-underline-offset: 230%;
+    text-decoration-thickness: 3px;
+}
+
+.active{
+    color: white !important;
+}
+
+
+.navbar-scrolled {
+    background-color: #000000; /* Change to the desired background color */
+    transition: background-color 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+/* offcanvas menu */
+
+.offcanvas-item{
+    /* background-color: black; */
+    background: transparent;
+    color: #c8c8c8;
+    line-height: 4rem;
+    transition: all .5s;
+    font-weight: 500;
+    /* line-height: 2.0; */
+}
+
+.offcanvas-item:hover{
+    font-size: 2rem ;
+    line-height: 6rem;
+    color: white;
+}
+
+
+.list-group-item{
+    border-color: #302c2c !important;
+    font-size: 16px;
+    font-size: 500;
+    
+}
+
+
+/* home section */
+
+.section1{
+    width: 100%;
+    height: 150vh;
+    
+    overflow: hidden;
+  }
+  .home{
+          border-bottom-left-radius: 100% 250px;
+          border-bottom-right-radius: 100% 250px;
+          width: calc(100% + 100px) ;
+          margin-left: -50px;
+      overflow: hidden;
+  }
+  .home-img{
+        height: 110vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/home.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+  }
+
+
+
+.scroll-mouse{
+
+}
+
+
+.mouse_scroll{
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 100px;
+    bottom: 10% !important;
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    cursor: pointer;
+}
+
+
+.mouse{
+    height: 42px;
+    width: 24px;
+    border-radius: 14px;
+    transform: none;
+    border: 2px solid white;
+}
+
+
+
+
+.wheel {
+    height: 4px;
+    width: 4px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    display: block;
+    margin: 5px auto;
+    background: white;
+    position: relative;
+    margin-top: 5px;
+    transition: all 0.5s; /* Added 's' after 0.5 */
+    animation: wheel-animation 0.6s linear infinite; /* Added 's' after 0.6 */
+}
+
+.mouse_scroll_arrow{
+    display: block;
+    transform: rotate(45deg);
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    margin: 0 0 3px 4px;
+    width: 16px;
+    height: 16px;
+
+
+}
+
+.text-container{
+    color: white;
+    display: flex;
+    font-weight: bold;
+    font-size: 34px;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+.play-icon{
+    width: 50px; /* Set the width of the circle */
+    height: 50px; /* Set the height of the circle */
+    background-color: #a7a7a7; /* Set the background color of the circle */
+    border-radius: 50%; /
+    displ
+}

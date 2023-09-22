@@ -1,0 +1,8 @@
+@media (max-width: 767px) {
+    
+    .header-wrapper{
+        padding: 0 30px;
+        box-shadow: 0 0 1rem rgba(0,0,0,0.56 );
+        height: 114px;
+    }
+}
