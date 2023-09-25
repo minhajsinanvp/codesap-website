@@ -27,6 +27,7 @@ body{
     font-weight: 400;
     visibility: visible;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 /* Header section  */
@@ -489,4 +490,108 @@ header{
 .show-more-less-btn{
     color: #086AD8 !important;
     cursor: pointer;
+}
+
+
+
+
+/* section 6 */
+#section-6{
+    margin-top: 20vh;
+}
+
+
+.section6-number{
+    font-size: 160px;
+    line-height: 0.8;
+    font-weight: 700;
+    color: #ededed;
+    z-index: -1;
+    right: 0px;
+    top: 0px;
+}
+
+
+.section6-number:hover{
+    color: #058df3 !important;
+}
+
+
+.steps{
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 35px 80px 35px 42px;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.line{
+    z-index: -1;
+    top: 10px;
+}
+
+.bubble{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #e8e8e8;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #333333;
+
+    
+}
+
+
+.section6-heading{
+    font-weight: 500;
+    /* font-weight: bold; */
+    font-size: 18px;
+    color: #333333;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+
+
+
+
+/* section-7 */
+
+#section7{
+    margin-top: 10vh;
+    height: 70vh;
+    scroll-behavior: ;
+}
+
+
+.section7-content{
+    height: 50vh;
+    background-color: #202124;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/map.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+
+}
+
+
+
+.vertical-line{
+    /* border-left: #058df3; */
+    /* border-width: 10px; */
+    border: 2px solid #058df3 ;
+    
+}
+
+.sec7-para{
+    font-family: sans-serif;
 }
