@@ -290,8 +290,8 @@ header{
 
 /* section-3 */
 #section3{
-    margin-top: 10vh;
-    margin-left: 50px;
+    /* margin-top: 10vh; */
+    margin: 10vh 50px;
     font-size: 24px;
     font-family: sans-serif;
     
@@ -326,4 +326,167 @@ header{
     font-weight: bold;
     font-family: sans-serif;
 
+}
+
+
+.counter-box{
+    color: white;
+}
+
+
+.counter-number{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 19px;
+}
+
+
+.counter-name{
+    color: #71c7f7;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+
+
+
+
+.sec3-content{
+    font-weight: 700;
+    line-height: 1.3;
+    font-family: sans-serif;
+    
+}
+
+
+
+/* section-4  */
+
+
+#section-4{
+    margin-top: 20vh;
+}
+
+
+.text-primary{
+    color: #3586e1 !important;
+}
+
+
+
+
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    border:2px solid #3586e1 !important;
+    background-color: white;
+    color: #3586e1 !important;
+    padding: 1rem;
+    
+}
+
+.nav-pills:hover{
+    color: white;
+    
+}
+
+
+
+.nav-tab-heading{
+    text-align: justify;
+    color: #333333 !important;
+    font-weight: 700 !important;
+    font-family: sans-serif;
+
+    
+}
+
+.nav-pills .nav-link{
+    border-radius: 10px;
+    
+}
+
+.nav-pill > li{
+    border: 2px solid blc;
+}
+
+
+.nav-tab-description{
+    color: #696969;
+    line-height: 1.74;
+    font-family: sans-serif;
+    /* text-align: justify; */
+
+}
+
+
+.nav-pills > .nav-item{
+    padding: 12px 13px 12px;
+    min-width: 150px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    border: rgb(237,237,237);
+    background: #fff;
+    border-radius: 15px !important;
+}
+
+
+.tabs-menu li a{
+    padding: 12px 13px 12px;
+    min-width: 150px;
+    font-weight: 500;
+    line-height: 1.3;
+    border: 1px solid #ededed !important;
+    background-color: #fff;
+    border-radius: 15px !important;
+    letter-spacing: 1px;
+    padding: 1rem;
+
+
+
+}
+
+
+
+
+
+
+/* section 5 */
+
+#section-5{
+    margin-top: 30vh;
+    background: #f2f6f9;
+    height: fit-content
+}
+
+.section5-heading{
+    font-size: 18px;
+    color: #333333;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+    font-weight: bold;
+    
+}
+
+
+.section5-cards{
+    /* border: 2px solid red; */
+    transition: all 1s;
+    padding: 50px;
+    word-wrap: break-word !important;
+}
+
+.section5-cards:hover{
+    /* transform: scale(1.1); */
+    background: white;
+    transform: translateY(-20px);
+}
+
+.show-more-less-btn{
+    color: #086AD8 !important;
+    cursor: pointer;
 }
