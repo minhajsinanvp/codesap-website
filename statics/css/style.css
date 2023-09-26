@@ -539,7 +539,7 @@ header{
     border: 2px solid #e8e8e8;
     box-shadow: 1px 1px 1px grey;
     border-radius: 50%;
-    z-index: 1;
+    /* z-index: 1; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -568,7 +568,7 @@ header{
 
 #section7{
     margin-top: 10vh;
-    height: 70vh;
+    height: 60vh;
     scroll-behavior: ;
 }
 
@@ -594,4 +594,34 @@ header{
 
 .sec7-para{
     font-family: sans-serif;
+}
+
+
+/* section-8 */
+
+#section-8{
+    height: 100vh;
+}
+
+
+.swiper-card{
+    
+    height: 65vh;
+    
+}
+
+
+
+#section-9{
+    background: #f2f2f2;
+    height: 70vh;
+}
+
+.section9-heading{
+    color: #ababab;
+    font-size: 17px;
+    letter-spacing: 3px;
+    line-height: 1.43;
+
+
 }

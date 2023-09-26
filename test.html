@@ -1,101 +1,208 @@
 <!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="statics/module/bootstrap-5.3.2-dist/css/bootstrap.css"
-    />
+   <title>Responsive Card Slider in HTML CSS & JavaScript with Swiperjs</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      /* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #efefef;
+}
+.container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+}
+.card .image-box {
+  height: 200px;
+}
+.card .image-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.card .profile-details {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+.card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile-details .job {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.swiper-navBtn {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 18px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
+    </style>
   </head>
   <body>
-    <!-- Tabs navs -->
-    <ul class="nav nav-pills nav-fill mb-3" id="ex1" role="tablist">
-      <li class="nav-item" role="presentation">
-        <a
-          class="nav-link active"
-          id="ex1-tab-1"
-          data-bs-toggle="tab"
-          href="#ex1-tabs-1"
-          role="tab"
-          aria-controls="ex1-tabs-1"
-          aria-selected="true"
-          >Tab 1</a
-        >
-      </li>
-      <li class="nav-item" role="presentation">
-        <a
-          class="nav-link"
-          id="ex1-tab-2"
-          data-bs-toggle="tab"
-          href="#ex1-tabs-2"
-          role="tab"
-          aria-controls="ex1-tabs-2"
-          aria-selected="false"
-          >Tab 2</a
-        >
-      </li>
-      <li class="nav-item mx-3" role="presentation">
-        <a
-          class="nav-link"
-          id="ex1-tab-3"
-          data-bs-toggle="tab"
-          href="#ex1-tabs-3"
-          role="tab"
-          aria-controls="ex1-tabs-3"
-          aria-selected="false"
-          >Tab 3</a
-        >
-      </li>
-    </ul>
-    <!-- Tabs navs -->
-
-    <!-- Tabs content -->
-    <div class="tab-content container mt-5" id="ex1-content">
-      <div
-        class="tab-pane fade show active"
-        id="ex1-tabs-1"
-        role="tabpanel"
-        aria-labelledby="ex1-tab-1"
-      >
-        <div class="row">
-          <div class="col-12 m-auto mb-5">
-            <img src="./statics/images/edsp.png" alt="" class="img-fluid w-100" />
+    <div class="container swiper">
+      <div class="slide-container">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <!--<img src="images/showImg/fullDev.jpg" alt="" />-->
+            </div>
+            <div class="profile-details">
+              <!--<img src="images/profile/profile1.jpg" alt="" />-->
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+                <h4 class="job">Full Stack Developer</h4>
+              </div>
+            </div>
           </div>
-          <div class="col-12">
-            <p class="justify-content-center">
-              C SAP Suite is a comprehensive B2B product that streamlines
-              business management, from small to large-scale operations.
-            </p>
-
-            <p class="justify-content-center">
-              It enables clients to set up an online presence through a customizable website while providing a range of modules for inventory management, staff details, transactions, invoicing, payments, detailed reports, sales tax reports, and aged reports tailored to various business needs. With its user-friendly interface and efficient features, C SAP Suite simplifies the process of managing a business.
-
-													
-            </p>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <!--<img src="images/showImg/photographer.jpg" alt="" />-->
+            </div>
+            <div class="profile-details">
+              <!--<img src="images/profile/profile2.jpg" alt="" />-->
+              <div class="name-job">
+                <h3 class="name">Siliana Ramis</h3>
+                <h4 class="job">Photographer</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <!--<img src="images/showImg/dataAna.jpg" alt="" />-->
+            </div>
+            <div class="profile-details">
+              <!--<img src="images/profile/profile3.jpg" alt="" />-->
+              <div class="name-job">
+                <h3 class="name">Richard Bond</h3>
+                <h4 class="job">Data Analyst</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <!--<img src="images/showImg/appDev.jpg" alt="" />-->
+            </div>
+            <div class="profile-details">
+              <!--<img src="images/profile/profile4.jpg" alt="" />-->
+              <div class="name-job">
+                <h3 class="name">Priase</h3>
+                <h4 class="job">App Developer</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <!--<img src="images/showImg/blogger.jpg" alt="" />-->
+            </div>
+            <div class="profile-details">
+              <!--<img src="images/profile/profile5.jpg" alt="" />-->
+              <div class="name-job">
+                <h3 class="name">James Laze</h3>
+                <h4 class="job">Blogger</h4>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div
-        class="tab-pane fade"
-        id="ex1-tabs-2"
-        role="tabpanel"
-        aria-labelledby="ex1-tab-2"
-      >
-        Tab 2 content
-      </div>
-      <div
-        class="tab-pane fade"
-        id="ex1-tabs-3"
-        role="tabpanel"
-        aria-labelledby="ex1-tab-3"
-      >
-        Tab 3 content
-      </div>
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
     </div>
-    <!-- Tabs content -->
 
-    <script src="./statics/module/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+      var swiper = new Swiper(".slide-container", {
+  slidesPerView: 4,
+  spaceBetween: 20,
+  sliderPerGroup: 4,
+  loop: true,
+  centerSlide: "true",
+  fade: "true",
+  grabCursor: "true",
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    520: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1000: {
+      slidesPerView: 4,
+    },
+  },
+});
+    </script>
   </body>
 </html>
