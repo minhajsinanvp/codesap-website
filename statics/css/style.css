@@ -37,7 +37,7 @@ header{
     background-color: transparent;
     position: absolute;
     width: 100%;
-    z-index: 900;
+    z-index: 999;
     /* height: ; */
 }
 
@@ -684,4 +684,14 @@ header{
     font-size: 20px;
     font-weight: 700;
     line-height: 1.17;
+}
+
+
+
+
+
+
+/* footer */
+.footer-section{
+    height: 50vh;
 }
