@@ -568,12 +568,12 @@ header{
 
 #section7{
     margin-top: 10vh;
-    height: 60vh;
+    height: fit-content;
 }
 
 
 .section7-content{
-    height: 50vh;
+    height: 70vh;
     background-color: #202124;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/map.png);
     background-position: cover;
