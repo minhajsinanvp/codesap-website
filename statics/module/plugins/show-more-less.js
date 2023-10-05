@@ -1,14 +1,16 @@
-function toggleText() {
+function toggleText(point,moreText,textButton) {
+
+    // console.log(e);
  
     // Get all the elements from the page
     let points =
-        document.getElementById("points");
+        document.getElementById(point);
 
     let showMoreText =
-        document.getElementById("moreText");
+        document.getElementById(moreText);
 
     let buttonText =
-        document.getElementById("textButton");
+        document.getElementById(textButton);
 
     // If the display property of the dots
     // to be displayed is already set to

@@ -40,7 +40,7 @@
     <header class="">
       <div class="container-fluid header-wrapper">
         <nav class="navbar navbar-expand-lg">
-          <div class="top-navbar-img w-25 ms-2">
+          <div class="top-navbar-img w-75 ms-2">
             <a class="navbar-brand" href="#">
               <img
                 src="./statics/images/logo-top.png"
@@ -256,7 +256,7 @@
         <div class="row">
           <div class="col-lg-6 row align-items-center">
             <div class="col-5 sec3-heading">08</div>
-            <div class="col-3 year-text">
+            <div class="col-6 year-text">
               YEARS <br />
               EXPERIENCE <br />
               IN IT
@@ -347,9 +347,9 @@
               >
             </li>
 
-            <li class="nav-item mx-3 btn" role="presentation">
+            <li class="nav-item mx-3 btn col-md-12 col-lg-2" role="presentation">
               <a
-                class="nav-link"
+                class="nav-link "
                 id="ex1-tab-4"
                 data-bs-toggle="tab"
                 href="#ex1-tabs-4"
@@ -486,9 +486,9 @@
                     <p class="justify-content-center nav-tab-description">
                       Specialising in custom software development and website
                       design services tailored to meet clients' nee
-                      <span id="points">...</span>
+                      <span id="point1">...</span>
 
-                      <span id="moreText" style="display: none">
+                      <span id="moreText1" style="display: none">
                         This necessity was as personal to me as it was
                         universal. This need combined with my passion for
                         teaching resulted in GeeksforGeeks as we know today. My
@@ -499,8 +499,8 @@
                       </span>
                       <span
                         class="show-more-less-btn"
-                        onclick="toggleText()"
-                        id="textButton"
+                        onclick="toggleText('point1','moreText1','textButton1')"
+                        id="textButton1"
                       >
                         Read more
                       </span>
@@ -521,9 +521,9 @@
                     <p class="justify-content-center nav-tab-description">
                       Specialising in custom software development and website
                       design services tailored to meet clients' nee
-                      <span id="points">...</span>
+                      <span id="point2">...</span>
 
-                      <span id="moreText" style="display: none">
+                      <span id="moreText2" style="display: none">
                         This necessity was as personal to me as it was
                         universal. This need combined with my passion for
                         teaching resulted in GeeksforGeeks as we know today. My
@@ -534,8 +534,8 @@
                       </span>
                       <span
                         class="show-more-less-btn"
-                        onclick="toggleText()"
-                        id="textButton"
+                        onclick="toggleText('point2','moreText2','textButton2')"
+                        id="textButton2"
                       >
                         Read more
                       </span>
@@ -556,9 +556,9 @@
                     <p class="justify-content-center nav-tab-description">
                       Specialising in custom software development and website
                       design services tailored to meet clients' nee
-                      <span id="points">...</span>
+                      <span id="point3">...</span>
 
-                      <span id="moreText" style="display: none">
+                      <span id="moreText3" style="display: none">
                         This necessity was as personal to me as it was
                         universal. This need combined with my passion for
                         teaching resulted in GeeksforGeeks as we know today. My
@@ -569,8 +569,8 @@
                       </span>
                       <span
                         class="show-more-less-btn"
-                        onclick="toggleText()"
-                        id="textButton"
+                        onclick="toggleText('point3','moreText3','textButton3')"
+                        id="textButton3"
                       >
                         Read more
                       </span>
@@ -591,9 +591,9 @@
                     <p class="justify-content-center nav-tab-description">
                       Specialising in custom software development and website
                       design services tailored to meet clients' nee
-                      <span id="points">...</span>
+                      <span id="point4">...</span>
 
-                      <span id="moreText" style="display: none">
+                      <span id="moreText4" style="display: none">
                         This necessity was as personal to me as it was
                         universal. This need combined with my passion for
                         teaching resulted in GeeksforGeeks as we know today. My
@@ -604,8 +604,8 @@
                       </span>
                       <span
                         class="show-more-less-btn"
-                        onclick="toggleText()"
-                        id="textButton"
+                        onclick="toggleText('point4','moreText4','textButton4')"
+                        id="textButton4"
                       >
                         Read more
                       </span>
@@ -626,9 +626,9 @@
                     <p class="justify-content-center nav-tab-description">
                       Specialising in custom software development and website
                       design services tailored to meet clients' nee
-                      <span id="points">...</span>
+                      <span id="point5">...</span>
 
-                      <span id="moreText" style="display: none">
+                      <span id="moreText5" style="display: none">
                         This necessity was as personal to me as it was
                         universal. This need combined with my passion for
                         teaching resulted in GeeksforGeeks as we know today. My
@@ -639,8 +639,8 @@
                       </span>
                       <span
                         class="show-more-less-btn"
-                        onclick="toggleText()"
-                        id="textButton"
+                        onclick="toggleText('point5','moreText5','textButton5')"
+                        id="textButton5"
                       >
                         Read more
                       </span>
@@ -663,9 +663,9 @@
                     <p class="justify-content-center nav-tab-description">
                       Specialising in custom software development and website
                       design services tailored to meet clients' nee
-                      <span id="points">...</span>
+                      <span id="point6">...</span>
 
-                      <span id="moreText" style="display: none">
+                      <span id="moreText6" style="display: none">
                         This necessity was as personal to me as it was
                         universal. This need combined with my passion for
                         teaching resulted in GeeksforGeeks as we know today. My
@@ -676,8 +676,8 @@
                       </span>
                       <span
                         class="show-more-less-btn"
-                        onclick="toggleText()"
-                        id="textButton"
+                        onclick="toggleText('point6','moreText6','textButton6')"
+                        id="textButton6"
                       >
                         Read more
                       </span>
@@ -936,30 +936,23 @@
                 <h6 class="nav-tab-heading">Mind weavers</h6>
               </div>
             </div>
+
             <div class="card swiper-slide card-slider testimonal-slider">
               <div class="card-content">
                 <div class="nav-tab-description">
-                  We are a leading provider of automotive spare parts and
-                  accessories, with over 10 years of experience in the industry.
-                  We offer a wide range of products for all makes and models of
-                  cars, SUVs, and trucks.
+                  Mind weavers is an innovative mental health service hub
+                  providing quality mental health care in a supportive and
+                  compassionate environment. We are licensed clinical
+                  psychologists aiming to create lasting and meaningful change
+                  in the lives of people we engage with. We seek not just to
+                  improve how our clients but also focus on changing how they
+                  live.
                 </div>
-                <h6 class="nav-tab-heading">Partshop Qatar</h6>
+                <h6 class="nav-tab-heading">Mind weavers</h6>
               </div>
             </div>
-            <div class="card swiper-slide card-slider testimonal-slider">
-              <div class="card-content">
-                <div class="nav-tab-description">
-                  Spazio Interni, formerly known as Studio Snaidero Houston, is
-                  a full service showroom specializing in the design, planning,
-                  installation, and service of the most exclusive and luxurious
-                  Italian cabinet brands for residential and commercial
-                  applications, including kitchens, closet systems, bathroom
-                  vanities, living units, interior doors and home furniture.
-                </div>
-                <h6 class="nav-tab-heading">Spazio</h6>
-              </div>
-            </div>
+         
+           
           </div>
         </div>
 
@@ -1172,7 +1165,7 @@
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
     © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Codesap.com</a>
   </div>
   <!-- Copyright -->
 </footer>

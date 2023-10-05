@@ -31,13 +31,12 @@
         font-size: 220px;
     }
 
-    .year-text{
-        /* text-align: center; */
-    }
+   
 
     
     
     }
 
-
-  
+@media (max-width:1562px){
+   
+}

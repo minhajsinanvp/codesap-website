@@ -76,8 +76,8 @@
 
 .testimonal-slider{
   margin: 100px;
-  height: 300px !important;
-  width: 92% !important;
+  height: fit-content !important;
+  width: 300px !important;
   border-right: #000;
 }
 
