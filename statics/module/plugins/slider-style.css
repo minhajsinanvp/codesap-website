@@ -75,7 +75,10 @@
 
 
 .testimonal-slider{
-  margin: 100px;
+  /* margin: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: fit-content !important;
   width: 300px !important;
   border-right: #000;
