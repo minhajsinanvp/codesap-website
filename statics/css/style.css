@@ -573,7 +573,7 @@ header{
 
 
 .section7-content{
-    height: 70vh;
+    height: 50vh;
     background-color: #202124;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/map.png);
     background-position: cover;
@@ -613,7 +613,7 @@ header{
 
 #section-9{
     background: #f2f2f2;
-    height: 80vh;
+    height:60vh;
 }
 
 .section9-heading{
@@ -699,7 +699,8 @@ header{
 
 
 .footer-container{
-    background-color: #000000;
+    background-color: #0c0c0c;
+    color: rgba(180, 185, 179, .726);
 }
 
 .text-reset{

@@ -40,3 +40,9 @@
 @media (max-width:1562px){
    
 }
+
+@media (max-width:580px){
+    .top-text{
+        text-align: center;
+    }
+}

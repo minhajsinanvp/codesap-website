@@ -3,7 +3,7 @@
 
 .container-box {
   max-width: 1400px;
-  width: 100%;
+  /* width: 100%; */
   padding: 60px 0;
   
 }
@@ -15,7 +15,7 @@
 }
 .card {
   background: #fff;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 .card .image-box {
   height: 300px;
@@ -64,7 +64,7 @@
 
 @media screen and (max-width: 768px) {
   .swiper-navBtn {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -75,13 +75,14 @@
 
 
 .testimonal-slider{
-  /* margin: 100px; */
+  margin: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: fit-content !important;
-  width: 300px !important;
-  border-right: #000;
+  min-width: 29% !important;
+  /* border-right: #000; */
+  margin:0px 5px;
 }
 
 .contact-img{
